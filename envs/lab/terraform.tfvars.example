@@ -1,0 +1,12 @@
+# Copy to terraform.tfvars (do not commit real account-specific secrets).
+
+aws_region           = "us-east-1"
+project_name         = "eks-lab"
+eip_keep_on_destroy  = false
+
+default_tags = {
+  Project   = "eks-platform-lab"
+  Phase     = "A"
+  ManagedBy = "terraform"
+  Owner     = "your-github-handle"
+}
