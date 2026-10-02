@@ -42,8 +42,4 @@ Destroy (EIP costs a small hourly charge when unattached):
 terraform destroy
 ```
 
-## Safety
 
-- No employer Terraform copied into this repo.
-- Use a personal/sandbox AWS account.
-- Tear down when idle.
